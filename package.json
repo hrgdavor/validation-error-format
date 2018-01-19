@@ -1,0 +1,50 @@
+{
+  "name": "validation-error-format",
+  "version": "1.0.0",
+  "description": "Less visual noise in code for translations inside JSX",
+  "main": "index.js",
+  "unpkg": "dist/validation-error-format.min.js",
+  "files": [
+    "index.js",
+    "dist"
+  ],
+  "scripts": {
+    "lint": "eslint index.js",
+    "test": "karma start --no-auto-watch --single-run true",
+    "dev-test": "karma start",
+    "prepublishOnly": "npm test && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hrgdavor/validation-error-format.git"
+  },
+  "keywords": [
+    "babel",
+    "translate",
+    "jsx"
+  ],
+  "author": "Davor hrg",
+  "license": "MIT",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/brentertz/scapegoat/blob/master/LICENSE-MIT"
+    }
+  ],
+  "bugs": {
+    "url": "https://hrgdavor/validation-error-format/issues"
+  },
+  "homepage": "https://hrgdavor/validation-error-format#readme",
+  "peerDependencies": {},
+  "devDependencies": {
+    "eslint": "^2.12.0",
+    "jasmine-core": "^2.8.0",
+    "karma": "^1.7.1",
+    "karma-babel-preprocessor": "^7.0.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-cli": "^1.0.1",
+    "karma-jasmine": "^1.1.1",
+    "remove": "^0.1.5",
+    "require": "^2.4.20"
+  }
+}

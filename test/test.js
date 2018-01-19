@@ -19,7 +19,6 @@ describe('validation-error-format', () => {
 
   it('sanitize nested validatejs', () => {
     var ret = formatter( [{attribute: 'name', validator:'custom', error: 'error1'}]);
-    console.log('ret',ret.nested.name);
     expect(ret.error).toEqual(true)
     expect(ret.nested.name.error).toEqual('error1')
     expect(ret.nested.name.type).toEqual('custom')

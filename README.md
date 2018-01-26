@@ -31,7 +31,7 @@ will be coded here.
   - Value validation in back-end
     - UI should not be trusted (especialy as requests can be faked and UI checks circumvented)
     - checks that require backend processing (duplicatte username, etc.)
-    - convert validation-error if back-end uses different format than frontend
+    - convert validation-error if back-end uses different format for validation errors
 
 ## Top level format
 Top level format depends on the receiver
